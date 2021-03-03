@@ -13,7 +13,7 @@ On Ubuntu:
     sudo apt install apache2
 
 
-Did it install OK?  Try:
+Confirm Apache is running by viewing the default page:
 
     http://localhost:80
 
