@@ -22,6 +22,8 @@ function simplefunction() {
 
 function displayResponse(data) {
 
+
+
     // Poemist returns an array of poems. Get the first one
     firstitem = data[0]
 
@@ -32,6 +34,6 @@ function displayResponse(data) {
     const simpleOut = document.querySelector("#poem");
     
     // Set the text
-    simpleOut.textContent = data[0].content
+    simpleOut.textContent = poem
 }
 
