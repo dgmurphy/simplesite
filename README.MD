@@ -55,3 +55,16 @@ The Chrome extension for VSCode will let you set breakpoints in
 your javascript.
 
 https://github.com/microsoft/vscode-chrome-debug
+
+
+### Note About Apache
+Installing apache will make it launch every time you start Ubuntu.
+This will tie up your HTTP port (80).
+
+To stop apache from automatically starting:
+
+    sudo systemctl disable apache2
+    sudo systemctl stop apache2
+
+
+
